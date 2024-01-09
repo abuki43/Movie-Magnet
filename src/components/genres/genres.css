@@ -1,0 +1,25 @@
+/* Genre.css */
+.genre-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    margin-inline: 2.4rem 2rem;
+}
+
+.genre-button {
+    margin: 0 5px 4px 0;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.genre-button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 600px) {}

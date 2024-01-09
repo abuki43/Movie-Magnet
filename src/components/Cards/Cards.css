@@ -1,0 +1,17 @@
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-inline: 10px;
+    padding-left: 6rem;
+    margin-right: 0px;
+}
+
+@media (max-width:600px) {
+    .cards {
+        padding-left: 2rem;
+        padding-inline: 0px;
+        gap: 10px;
+        justify-content: center;
+    }
+}

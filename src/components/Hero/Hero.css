@@ -1,0 +1,48 @@
+.hero {
+    margin-top: 3rem;
+}
+
+.hero input {
+    height: 28px;
+    width: 14rem;
+    padding: 10px;
+    margin-bottom: 6px;
+}
+
+.hero {
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h2 {
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero h4 {
+    color: #666;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.hero input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hero button:hover {
+    background-color: #0056b3;
+}
